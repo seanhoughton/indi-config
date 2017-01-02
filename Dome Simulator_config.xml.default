@@ -1,0 +1,138 @@
+<INDIDriver>
+<newSwitchVector device='Dome Simulator' name='DEBUG'>
+  <oneSwitch name='ENABLE'>
+      Off
+  </oneSwitch>
+  <oneSwitch name='DISABLE'>
+      On
+  </oneSwitch>
+</newSwitchVector>
+<newSwitchVector device='Dome Simulator' name='DEBUG_LEVEL'>
+  <oneSwitch name='DBG_ERROR'>
+      On
+  </oneSwitch>
+  <oneSwitch name='DBG_WARNING'>
+      On
+  </oneSwitch>
+  <oneSwitch name='DBG_SESSION'>
+      On
+  </oneSwitch>
+  <oneSwitch name='DBG_DEBUG'>
+      Off
+  </oneSwitch>
+</newSwitchVector>
+<newSwitchVector device='Dome Simulator' name='LOGGING_LEVEL'>
+  <oneSwitch name='LOG_ERROR'>
+      On
+  </oneSwitch>
+  <oneSwitch name='LOG_WARNING'>
+      On
+  </oneSwitch>
+  <oneSwitch name='LOG_SESSION'>
+      On
+  </oneSwitch>
+  <oneSwitch name='LOG_DEBUG'>
+      Off
+  </oneSwitch>
+</newSwitchVector>
+<newSwitchVector device='Dome Simulator' name='LOG_OUTPUT'>
+  <oneSwitch name='CLIENT_DEBUG'>
+      On
+  </oneSwitch>
+  <oneSwitch name='FILE_DEBUG'>
+      Off
+  </oneSwitch>
+</newSwitchVector>
+<newTextVector device='Dome Simulator' name='ACTIVE_DEVICES'>
+  <oneText name='ACTIVE_TELESCOPE'>
+      Telescope Simulator
+  </oneText>
+  <oneText name='ACTIVE_WEATHER'>
+      WunderGround
+  </oneText>
+</newTextVector>
+<newTextVector device='Dome Simulator' name='DEVICE_PORT'>
+  <oneText name='PORT'>
+      /dev/ttyUSB0
+  </oneText>
+</newTextVector>
+<newSwitchVector device='Dome Simulator' name='TELESCOPE_POLICY'>
+  <oneSwitch name='NO_ACTION'>
+      On
+  </oneSwitch>
+  <oneSwitch name='LOCK_PARKING'>
+      Off
+  </oneSwitch>
+</newSwitchVector>
+<newNumberVector device='Dome Simulator' name='Presets'>
+  <oneNumber name='Preset 1'>
+      0
+  </oneNumber>
+  <oneNumber name='Preset 2'>
+      0
+  </oneNumber>
+  <oneNumber name='Preset 3'>
+      0
+  </oneNumber>
+</newNumberVector>
+<newNumberVector device='Dome Simulator' name='DOME_PARAMS'>
+  <oneNumber name='AUTOSYNC_THRESHOLD'>
+      5
+  </oneNumber>
+</newNumberVector>
+<newNumberVector device='Dome Simulator' name='DOME_MEASUREMENTS'>
+  <oneNumber name='DM_DOME_RADIUS'>
+      0
+  </oneNumber>
+  <oneNumber name='DM_SHUTTER_WIDTH'>
+      0
+  </oneNumber>
+  <oneNumber name='DM_NORTH_DISPLACEMENT'>
+      0
+  </oneNumber>
+  <oneNumber name='DM_EAST_DISPLACEMENT'>
+      0
+  </oneNumber>
+  <oneNumber name='DM_UP_DISPLACEMENT'>
+      0
+  </oneNumber>
+  <oneNumber name='DM_OTA_OFFSET'>
+      0
+  </oneNumber>
+</newNumberVector>
+<newSwitchVector device='Dome Simulator' name='DOME_AUTOPARK'>
+  <oneSwitch name='Enable'>
+      Off
+  </oneSwitch>
+  <oneSwitch name='Disable'>
+      On
+  </oneSwitch>
+</newSwitchVector>
+<newSwitchVector device='Dome Simulator' name='DOME_AUTOSYNC'>
+  <oneSwitch name='DOME_AUTOSYNC_ENABLE'>
+      Off
+  </oneSwitch>
+  <oneSwitch name='DOME_AUTOSYNC_DISABLE'>
+      On
+  </oneSwitch>
+</newSwitchVector>
+<newSwitchVector device='Dome Simulator' name='USEJOYSTICK'>
+  <oneSwitch name='ENABLE'>
+      Off
+  </oneSwitch>
+  <oneSwitch name='DISABLE'>
+      On
+  </oneSwitch>
+</newSwitchVector>
+<newTextVector device='Dome Simulator' name='JOYSTICKSETTINGS'>
+  <oneText name='Dome Abort'>
+      BUTTON_3
+  </oneText>
+  <oneText name='Dome CW'>
+      BUTTON_1
+  </oneText>
+  <oneText name='Dome CCW'>
+      BUTTON_2
+  </oneText>
+</newTextVector>
+</INDIDriver>
